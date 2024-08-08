@@ -5,7 +5,7 @@
 Este proyecto tiene como objetivo diseñar e implementar una topología de red segura que conecta cinco sedes con acceso a una red WAN. El diseño incluye configuraciones avanzadas como ACL, servicios de red (DHCP, web, FTP, email, DNS), y una topología de Routing on a Stick con subinterfaces. Además, se implementan protocolos de autenticación PAP y CHAP para asegurar las conexiones.
 
     Sede Lima:
-![alt text](Sede_Lima.png)
+![alt text](./Img/Sede_Lima.png)
 
 ## Requisitos
 
@@ -25,47 +25,47 @@ Este proyecto tiene como objetivo diseñar e implementar una topología de red s
 3. **Verificar Conectividad:**
    - Comprueba la conectividad entre sedes y hacia la WAN utilizando comandos de ping o el uso de PDU.
    -     Ping: Dispositivo/Desktop/Command Prompt
-       ![alt text](Ping_dispositivo.png)
+       ![alt text](./Img/Ping_dispositivo.png)
    -     PDU: Click en el icono/CLick en un dispositivo de inicio y final
-       ![alt text](PDU_dispositivo.png) 
+       ![alt text](./Img/PDU_dispositivo.png) 
 4. **Pruebas de Servicios:**
    - Asegúrate de que los servicios de red (DHCP, web, FTP, email, DNS) están funcionando correctamente.
    -     DNS: Servidor DNS/Services/DNS
          🔵 Dominio email
          🔴 Dominio web
-        ![alt text](Dominio_DNS.png)
+        ![alt text](./Img/Dominio_DNS.png)
    -     Web: Dispositivo/Desktop/Web Browser
          🔴 Dominio web
-        ![alt text](Servicio_Web.png) 
+        ![alt text](./Img/Servicio_Web.png) 
    -     Email: Dispositivo marcado/Desktop/Mail
          🟢 Dispositivo marcado
          ❌ Dispositivo NO marcado
-       ![alt text](Dispositivos.png)
+       ![alt text](./Img/Dispositivos.png)
 
        Paso 1: Completa los datos del dispositivo marcado y da clic en enviar.
         
-       ![alt text](Completar_datos.png) 
+       ![alt text](./Img/Completar_datos.png) 
 
        Paso 2: Verifica el envio del mensaje en la parte inferior
 
-       ![alt text](Verificar_envio.png)
+       ![alt text](./Img/Verificar_envio.png)
 
        Paso 3: Verifica que se recibio el mensaje en el correo del dispositivo receptor
     
-       ![alt text](Verificar_receptor.png)
+       ![alt text](./Img/Verificar_receptor.png)
         
    -     DHCP: Configuración DHCP en el router para los access point
-       ![alt text](DHCP_router.png)
-       ![alt text](DHCP_dispositivo.png)
+       ![alt text](./Img/DHCP_router.png)
+       ![alt text](./Img/DHCP_dispositivo.png)
 
    -     DHCP: Servidor DHCP/Services/DHCP
-       ![alt text](DHCP_server.png)
-       ![alt text](DHCP_dispositivo_server.png)
+       ![alt text](./Img/DHCP_server.png)
+       ![alt text](./Img/DHCP_dispositivo_server.png)
 
    -     FTP: Servidor FTP/Services/FTP
-       ![alt text](FTP_server.png)
+       ![alt text](./Img/FTP_server.png)
    -     FTP: Dispositivo/Desktop/Command Prompt
-       ![alt text](FTP_dispositivo.png)   
+       ![alt text](./Img/FTP_dispositivo.png)   
        
 5. **Simulación de Tráfico:**
    - Se implementaron 5 ACL con la siguientes finalidades:
