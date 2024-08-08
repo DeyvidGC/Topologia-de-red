@@ -5,7 +5,7 @@
 Este proyecto tiene como objetivo diseñar e implementar una topología de red segura que conecta cinco sedes con acceso a una red WAN. El diseño incluye configuraciones avanzadas como ACL, servicios de red (DHCP, web, FTP, email, DNS), y una topología de Routing on a Stick con subinterfaces. Además, se implementan protocolos de autenticación PAP y CHAP para asegurar las conexiones.
 
     Sede Lima:
-![alt text](./Img/Sede_Lima.png)
+![alt text](./Img/Sede_lima.png)
 
 ## Requisitos
 
